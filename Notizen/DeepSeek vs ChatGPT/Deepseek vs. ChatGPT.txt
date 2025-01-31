@@ -1,0 +1,27 @@
+Speed-Test
+Frage: "Ein Zug fährt mit einer Geschwindigkeit von 80 km/h von Stadt A nach Stadt B, die 300 km entfernt ist. 
+Zur gleichen Zeit startet ein zweiter Zug von Stadt B nach Stadt A mit 120 km/h. 
+Eine Biene beginnt gleichzeitig mit dem ersten Zug von Stadt A aus zu fliegen, mit einer Geschwindigkeit von 200 km/h, und fliegt ständig zwischen den beiden Zügen hin und her, bis sie sich treffen. 
+Wie viele Kilometer hat die Biene insgesamt zurückgelegt, bevor die Züge kollidieren? Beantworte in einem Satz."
+
+ChatGPT
+Antwort: 300km
+Zeit: 4,04s
+
+DeepSeek
+Antwort: 300km
+Zeit: 14,67s
+
+Fehler: hat in mehreren Sätzen geantwortet.
+
+Genauigkeitstest:
+Frage: "Kannst du mir ein Python-Skript schreiben, welches visuell die ersten 20 Zahlen der Fibonacci-Reihe berechnet?"
+
+ChatGPT: 
+Abhängigkeit: matplotlib
+Zeit: ~7s pro Antwort
+
+DeepSeek:
+keine Abhängigkeit - funktionslos
+Abhängigkeit: matplotlib (musste vorgeschlagen werden)
+Zeit ~ 35s pro Antwort
